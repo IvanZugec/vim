@@ -6,7 +6,14 @@ autocmd FileType xml set omnifunc=xmlcomplete#CompleteTags
 autocmd FileType php set omnifunc=phpcomplete#CompletePHP
 autocmd FileType c set omnifunc=ccomplete#Complete
 
-imap <c-space> <c-x><c-o>
+:imap <c-space> <c-x><c-o>
+
+
+" configure Tag List
+let Tlist_Show_One_File = 1
+let Tlist_Use_Right_Window = 1
+let Tlist_WinWidth = 40
+
 
 " Set filetype detection on, load plugins and indent.
 filetype plugin indent on
