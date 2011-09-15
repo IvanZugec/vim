@@ -61,6 +61,10 @@ set hlsearch
 set ignorecase
 set smartcase
 
+"wrapping
+:map <F5> :set nowrap! <CR>
+
+
 set wildmode=longest,list " File and directory matching mode.
 
 syntax on " Syntax highlighting on.
