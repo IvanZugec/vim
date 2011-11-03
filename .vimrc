@@ -89,3 +89,7 @@ augroup END
 " Map keys to navigate tabs
 :map <C-Left> :tabprevious<CR>
 :map <C-Right> :tabnext<CR>
+
+" autocmd VimEnter * NERDTree
+" autocmd BufEnter * NERDTreeMirror
+
